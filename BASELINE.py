@@ -176,3 +176,5 @@ for test_image in tqdm(test_images, total = len(test_images)) :
 sample_submission.iloc[:,1:] = predictions
 #display(sample_submission.head())
 sample_submission.to_csv('./BASELINE.csv', index=False)
+
+#hello_1st
